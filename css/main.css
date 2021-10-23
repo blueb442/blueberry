@@ -9,22 +9,22 @@ https://github.com/blueb442
 /* Light Theme Variables */
 
 body {
-    --bg-primary: #000;
-    --bg-secondary: ;
-    --bg-secondary-alt: ;
-    --bg-tertiary: ;
-    --bg-accent: ;
-    --text-header: ;
-    --text-main: ;
+    --bg-primary: rgb(25, 25, 27);
+    --bg-secondary: rgb(22, 22, 24);
+    --bg-secondary-alt: rgb(16, 16, 17);
+    --bg-tertiary: rgb(8, 8, 8);
+    --bg-accent: rgb(49, 49, 53);
+    --text-header: rgb(255, 255, 255);
+    --text-main: rgb(233, 233, 233);
 
-    --accent: ;
+    --accent: rgb(148, 91, 212);
 
-    --red: ;
-    --orange: ;
-    --yellow: ;
-    --green: ;
-    --blue: ;
-    --purple: ;
+    --red: rgb(199, 44, 44);
+    --orange: rgb(233, 116, 48);
+    --yellow: rgb(245, 232, 57);
+    --green: rgb(100, 190, 88);
+    --blue: rgb(49, 125, 212);
+    --purple: rgb(126, 68, 219);
 
     --font-display: "Commissioner";
     --font-primary: "Source Sans Pro";
