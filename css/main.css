@@ -55,45 +55,33 @@ https://github.com/blueb442
 /** Headers & Text **/
 /* - headers */
 
-h1 {
+.h1 {
     font-family: var(--font-display)!important;
 }
 
-h2 {
+.h2 {
     font-family: var(--font-display)!important;
 }
 
-h3 {
+.h3 {
     font-family: var(--font-display)!important;
 }
 
-h4 {
+.h4 {
     font-family: var(--font-display)!important;
 }
 
-h5 {
+.h5 {
     font-family: var(--font-display)!important;
 }
 
-h6 {
+.h6 {
     font-family: var(--font-display)!important;
 }
 
 /* - text */
 
-p {
-    font-family: var(--font-primary);
-}
-
-a {
-    font-family: var(--font-primary);
-}
-
-span {
-    font-family: var(--font-primary);
-}
-
-.txt {
+.p {
     font-family: var(--font-primary);
 }
 
