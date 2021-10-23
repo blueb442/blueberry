@@ -6,6 +6,16 @@ https://github.com/blueb442
 **/
 
 
+/* Display Font */
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Primary Font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* Code Font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+
 /* Dark Theme Variables */
 
 .blueberry {
@@ -30,15 +40,6 @@ https://github.com/blueb442
     --font-primary: "Source Sans Pro";
     --font-code: "Fira Code";
 }
-
-/* Display Font */
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-/* Primary Font */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-
-/* Code Font */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 @import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/alert.css");
 @import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/button.css");
