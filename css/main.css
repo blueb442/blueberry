@@ -8,7 +8,7 @@ https://github.com/blueb442
 
 /* Light Theme Variables */
 
-:root {
+body {
     --bg-primary: #000;
     --bg-secondary: ;
     --bg-secondary-alt: ;
@@ -26,9 +26,9 @@ https://github.com/blueb442
     --blue: ;
     --purple: ;
 
-    --font-display: Commissioner, Helvetica, Arial, sans;
-    --font-primary: Source Sans Pro, Helvetica, Arial, sans;
-    --font-primary: Fira Code, Consolas, code;
+    --font-display: "Commissioner";
+    --font-primary: "Source Sans Pro";
+    --font-code: "Fira Code";
 }
 
 /* Display Font */
@@ -40,17 +40,17 @@ https://github.com/blueb442
 /* Code Font */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
-@import url("alert.css");
-@import url("badge.css");
-@import url("button.css");
-@import url("card.css");
-@import url("directory.css");
-@import url("list.css");
-@import url("modal.css");
-@import url("nav.css");
-@import url("placeholder.css");
-@import url("progress.css");
-@import url("tag.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/alert.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/button.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/badge.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/card.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/directory.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/list.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/modal.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/nav.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/placeholder.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/progress.css");
+@import url("https://raw.githubusercontent.com/blueb442/blueberry/main/css/tag.css");
 
 /** Headers & Text **/
 /* - headers */
