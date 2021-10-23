@@ -6,9 +6,9 @@ https://github.com/blueb442
 **/
 
 
-/* Light Theme Variables */
+/* Dark Theme Variables */
 
-body {
+.blueberry {
     --bg-primary: rgb(25, 25, 27);
     --bg-secondary: rgb(22, 22, 24);
     --bg-secondary-alt: rgb(16, 16, 17);
