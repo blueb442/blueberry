@@ -1,0 +1,58 @@
+/** 
+
+Created with love & tears,
+https://github.com/blueb442
+
+**/
+
+$theme-colors: (
+   "red": rgb(199, 44, 44),
+   "orange": rgb(233, 116, 48),
+   "yellow": rgb(245, 232, 57),
+   "green": rgb(100, 190, 88),
+   "blue": rgb(49, 125, 212),
+   "purple": rgb(126, 68, 219),
+
+   "accent": rgb(148, 91, 212),
+
+   "bg-accent": rgb(49, 49, 53),
+   "bg-primary": rgb(25, 25, 27),
+   "bg-secondary": rgb(22, 22, 24),
+   "bg-secondary-alt": rgb(16, 16, 17),
+   "bg-tertiary": rgb(8, 8, 8),
+);
+
+/* Display Font */
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Primary Font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* Code Font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+.button {
+    display: inline-block;
+  
+    padding: .375rem .75rem;
+   
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+   
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  
+    color: rgb(65, 65, 65);
+    background-color: transparent;
+    &:hover{
+        cursor: pointer;
+    }  
+}
+
+@each $name,$color in $theme-colors {
+    .button-#{$name}{
+        background-color: $color;
+        color: white;
+    }
+}
